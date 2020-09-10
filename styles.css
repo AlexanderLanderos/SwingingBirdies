@@ -1,20 +1,28 @@
-body,
 html {
   height: 100%;
   background-color: rgb(224, 231, 254);
-}
-
-.bg {
   background-image: url('https://images.alphacoders.com/292/thumb-1920-292381.jpg');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgb(193, 216, 255);
 }
-.main_Label {
-  display: inline-flex;
-  color: rgb(124, 193, 94);
-  display: inline-flex;
+
+.signUp_link {
+  color: aliceblue;
+  display: flex;
   justify-content: center;
+}
+
+.formSubmit {
+  display: flex;
+  justify-content: center;
+}
+
+.title_Welcome {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  color: aqua;
+  font-size: 100%;
 }
