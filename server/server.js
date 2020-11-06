@@ -4,8 +4,6 @@ const path = require('path');
 const port = 3000;
 const app = express();
 
-const client = require('../index.js');
-
 app.use(express.json());
 
 app.get('/', (req, res) => {
@@ -34,3 +32,5 @@ app.get('/login', (req, res) => {
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
+
+module.export = app;
