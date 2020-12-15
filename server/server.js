@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.sendFile(path.resolve(__dirname, '../index.html'));
+  res.sendFile(path.resolve(__dirname, '../client/index.html'));
   console.log('You are at the login page');
 });
 
@@ -25,8 +25,6 @@ app.get('/login', (req, res) => {
   res.sendFile(path.resolve(__dirname, '../login.html'));
   console.log('You are at the login page!');
 });
-
-//CRUD routing goes here
 
 // Make sure my server is listening on the correct port
 app.listen(port, () => {
