@@ -7,7 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "NODE_ENV=production nodemon server/server.js",
     "build": "NODE_ENV=production webpack",
+<<<<<<< HEAD
     "dev": "NODE_ENV=development concurrently \"nodemon client/index.html\" \"webpack-dev-server --open\""
+=======
+    "dev": "NODE_ENV=development concurrently \"nodemon server/server.js\" \"webpack-dev-server --open\""
+>>>>>>> 14b63ad71b7ea72ee075e99e23207974a6fe7564
   },
   "repository": {
     "type": "git",
@@ -33,8 +37,11 @@
   },
   "dependencies": {
     "mongoose": "^5.10.3",
+<<<<<<< HEAD
     "pg": "^8.3.3",
     "pg-promise": "^10.6.1",
+=======
+>>>>>>> 14b63ad71b7ea72ee075e99e23207974a6fe7564
     "webpack": "^4.44.1"
   }
 }
