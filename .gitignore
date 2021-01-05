@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-node_modules
-=======
 # General
 .DS_Store
 
 # dependencies
 node_modules/
 
->>>>>>> cce96d155110eab91c4116667b46c8b080317d3b
+package-lock.json
