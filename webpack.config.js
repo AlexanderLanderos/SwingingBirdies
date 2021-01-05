@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   mode: process.env.NODE_ENV,
-  entry: 'index.html',
+  entry: './index.js',
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js',
@@ -11,14 +11,14 @@ module.exports = {
     rules: [
       {
         test: /\.jsx?/,
-        exlude: /node_modules/,
+        exclude: /node_modules/,
         loader: 'babel-loader',
-        query: {
-          preset: ['@babel/env', '@babel/react'],
+        options: {
+          presets: ['@babel/env', '@babel/react'],
         },
       },
       {
-        rest: /\.s>css/,
+        test: /\.s>css/,
         use: ['style-loader', 'css-loader', 'sass-loader'],
       },
     ],

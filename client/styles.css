@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+  background-color: rgb(224, 231, 254);
+  background-image: url('https://images.alphacoders.com/292/thumb-1920-292381.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Happy_Homepage {
+  background-image: url('https://images7.alphacoders.com/803/thumb-1920-803573.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.signUp_link {
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+
+.formSubmit {
+  display: flex;
+  justify-content: center;
+}
+
+.formSubmit_CreateAccount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title_Signup {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  color: aqua;
+  font-size: 75px;
+}
+.title_Welcome {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  color: aqua;
+  font-size: 75px;
+}
