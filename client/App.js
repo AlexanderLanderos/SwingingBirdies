@@ -1,6 +1,6 @@
 import "./styles.css";
 import Card from "./Card";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 // scorecard container
 // total score
@@ -70,7 +70,7 @@ export default App;
 
 
 
-
+// this was the previous class component. ""
 // export default class App extends Component {
 //   constructor(props) {
 //     super(props);
