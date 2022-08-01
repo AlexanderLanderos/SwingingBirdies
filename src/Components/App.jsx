@@ -8,6 +8,7 @@ const App = () => {
     <div className='App'>
       <header>
         <h1>Swing Tracker</h1>
+        <h1> hugs and kisses</h1>
       </header>
       <div>
         <h1>First</h1>
