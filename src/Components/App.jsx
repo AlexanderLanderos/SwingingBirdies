@@ -9,6 +9,7 @@ const App = () => {
       <header>
         <h1>Swing Tracker</h1>
         <h1> hugs and kisses</h1>
+        <p>askdjhflkjasdhflkjasdhflkjasdhflkjashdflkjahsdlkfjh asldfjkhalskdjfhlaksdj fhlkajsdhf lkjashdf lkjashd flkjhasd flkjashdfkj hasdlfkjhas kdjfhalskdjhflkadjshflkjasdhflkjahsdflkjashdflkjhasdlfkjha</p>
       </header>
       <div>
         <h1>First</h1>
